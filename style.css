@@ -35,7 +35,7 @@ body{
     color: #ffffff;
     text-decoration: none;
 }
-.main content{
+.main-content{
     padding-top:50px ;
     background-attachment: fixed;
 
@@ -59,7 +59,7 @@ body{
 .sidebar ul li{
     text-align: center;
 }
-.main content{
+.main-content{
     margin-left: 50px;
 }
 }
@@ -77,7 +77,7 @@ body{
     .sidebar ul li i{
         font-size: 20px;
     }
-    .main content{
+    .main-content{
         margin-left: 50px;
     }
 
@@ -97,7 +97,7 @@ body{
     .sidebar ul li{
         font-size: 30px;
     }
-    .main content{
+    .main-content{
         margin-left: 100px;
     }
 
@@ -117,10 +117,10 @@ body{
     .sidebar ul li i{
         font-size: 40px;
     }
-    .main content{
+    .main-content{
         margin-left: 200px;
     }
-    .main content{
+    .main-content{
         margin-left: 200px;
     }
 }
@@ -139,7 +139,7 @@ body{
     .sidebar ul li i{
         font-size: 25px;
     }
-    .main content{
+    .main-content{
         margin-left: 300px;
     }
 }
