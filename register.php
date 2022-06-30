@@ -20,24 +20,24 @@
         <img src="images/images.jpg" alt="zalego" height="50" width="50" class="rounded-circle">
     </div>
     <div class="container shadow">
-        <form>
+        <form action="" method="post"> 
         <div class="row">   
             <div class="col-lg-12">   
                 <label for="username" class="form-label">username:</label>
                 <br>
-                <input type="text" class="form-control" >
+                <input type="text" class="form-control" name="username" >
             </div>
             <div class="col-lg-12">
                 <br>
                 <label for="email" class="form-label">Email:</label>
                 <br>
-             <input type="text" class="form-control" >
+             <input type="text" class="form-control" name="email" >
             </div>
                 <br>
             <div>
                 <label for="password" class="form-label" >password:</label>
                 <br>
-                <input type="text" class="form-control" >
+                <input type="text" class="form-control" name="password">
             </div>
                 <br>
             <div>
@@ -48,9 +48,9 @@
                 <br>
             <div>
                 <br>
-                <button class="btn btn-primary">submit</button>
+                <button class="btn btn-primary" name="signUp">submit</button>
             </div>
-            <span>have an account? sign in <a href="#">here</a></span>
+            <span>Have  account? sign in <a href="login.php">here</a></span>
         </div>    
         </form>
 
