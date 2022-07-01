@@ -63,7 +63,7 @@
             </div>
             <div class="card-body   ">
                 <span><i class="fa fa-group fa-3x"></i></span>
-                <span class="float-right">00</span>
+                <span class="float-end">00</span>
             </div>
             <div class="card-footer shadow-none p-3 mb-5 bg-light rounded"></div>
         </div>
@@ -75,7 +75,7 @@
             
             <div class="card-body">
                 <span><i class="fa fa-folder-open fa-3x"></i></span>
-                <span class="float-right">00</span>
+                <span class="float-end">00</span>
             </div>
             <div class="card-footer shadow-none p-3 mb-5 bg-light rounded "></div>
             
@@ -86,7 +86,7 @@
             </div>
             <div class="card-body">
                 <span><i class="fa fa-graduation-cap fa-3x"></i></span>
-                <span class="float-right">00</span>
+                <span class="float-end">00</span>
             </div>
             <div class="card-footer shadow-none p-3 mb-5 bg-light rounded"></div>
         </div>
@@ -96,7 +96,7 @@
             </div>
             <div class="card-body">
                 <span><i class="fa fa-user fa-3x"></i></span>
-                <span class="float-right">00</span>
+                <span class="float-end">00</span>
             </div>
             <div class="card-footer shadow-none p-3 mb-5 bg-light rounded"></div>
         </div>
@@ -116,7 +116,7 @@
     </div>
 </div>
  
-<script src="jquery.min.js"></script>
+<!-- <script src="jquery.min.js"></script> -->
 <script src="bootstrap-5.2.0/js/bootstrap.bundle.min.js"></script>
 <script src="bootstrap-5.2.0/js/bootstrap.min.js"></script>   
 </body>

@@ -43,7 +43,7 @@
             <div>
                 <label for="confirm password" class="form-label">confirm password:</label>
                 <br>
-                <input type="text" class="form-control" >
+                <input type="text" class="form-control" name="cpassword">
             </div>
                 <br>
             <div>

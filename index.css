@@ -16,7 +16,7 @@ body{
 .sidebar{
     position: absolute;
     width: 100%;
-    background-color: #ff0000;
+    background-color: #7fc242;
     height: 100vh;
     z-index: 4;
     padding-top: 50px;
@@ -136,7 +136,7 @@ body{
 /* large desktops */
 @media (min-width: 1200px){
     .sidebar{
-        width: 300px;
+        width: 250px;
     }
     .sidebar ul li{
         text-align: left;
@@ -146,9 +146,9 @@ body{
         display: inline;
     }
     .sidebar ul li i{
-        font-size: 25px;
+        font-size: 20px;
     }
     .main-content{
-        margin-left: 300px;
+        margin-left: 250px;
     }
 }

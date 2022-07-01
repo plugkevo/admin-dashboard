@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>students page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="students.css">
     <link rel="stylesheet" href="bootstrap-5.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
@@ -47,47 +47,79 @@
    
     <div class="main-content">
         <div class="container-fluid">
-            <table class="table " style="table-hover">
+            <table class="table table-striped table-hover table-responsive"  >
                 <thead>
                     <tr>
-                        <th scope="col">id</th>
+                        <th scope="col">no.</th>
                         <th scope="col">fullname</th>
                         <th scope="col">phone</th>
                         <th scope="col">email</th>
                         <th scope="col">course</th>
-                        <th scope="col">gender</th>
+                        <th scope="col">Enrolled on</th>
+                        <th scope="col">Action</th>
       
                     </tr>
                 </thead>
                 <tbody>
                      <tr>
                         <th scope="row">1</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>Kevin Munene</td>
+                        <td>0740682192</td>
+                        <td>munenekevin366@gmail.com</td>
+                        <td>Web development</td>
+                        <td>Friday</td>
+                        <td>
+                            <a href="" class="btn btn-primary btn-sm">
+                            <i class="fa fa-edit"></i>
+                            </a>
+                            <a href="" class="btn btn-info btn-sm">
+                            <i class="fa fa-eye"></i> 
+                            </a>
+                            <a href="" class="btn btn-danger btn-sm">
+                            <i class="fa fa-trash"></i> 
+                                
+                            </a>
+                        </td>
       
 
                     </tr>
                     <tr>
                         <th scope="row">2</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>Fosi Amana</td>
+                        <td>0745683292</td>
+                        <td>fosi123@gmail.com</td>
+                        <td>Android development</td>
+                        <td>Thursday</td>
+                        <td>
+                        <a href="" class="btn btn-primary btn-sm">
+                            <i class="fa fa-edit"></i>
+                        </a>
+                        <a href="" class="btn btn-info btn-sm">
+                            <i class="fa fa-eye"></i>
+                        </a>
+                        <a href="" class="btn btn-danger btn-sm">
+                        <i class="fa fa-trash"></i>
+                        </a>
+                        </td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
-                        <td colspan="2"></td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
+                        <td>
+                        <a href="" class="btn btn-primary btn-sm">
+                        <i class="fa fa-edit"></i>
+                        </a>
+                        <a href="" class="btn btn-info btn-sm">
+                        <i class="fa fa-eye"></i>
+                        </a>
+                        <a href="" class="btn btn-danger btn-sm">
+                        <i class="fa fa-trash"></i>
+                        </a>
+                        </td>
                     </tr>
                 </tbody>
             </table>   
