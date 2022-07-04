@@ -71,7 +71,9 @@
                         <th scope="col">Email</th>
                         <th scope="col">Gender</th>
                         <th scope="col">Course</th>
+                        <th scope="col">Enrolled on</th>
                         <th scope="col">Action</th>
+
       
                     </tr>
                 </thead>
@@ -85,6 +87,7 @@
                         <td> <?php echo $fetchEnrollmentRecord['email']  ?> </td>
                         <td> <?php echo $fetchEnrollmentRecord['gender']  ?> </td>
                         <td> <?php echo $fetchEnrollmentRecord['course']  ?> </td>
+                        <td> <?php echo $fetchEnrollmentRecord['created_at']  ?> </td>
                         <td>
                             <a href="" class="btn btn-primary btn-sm">
                             <i class="fa fa-edit"></i>
