@@ -28,6 +28,17 @@
     <!-- code for main content -->
    
     <div class="main-content">
+        <div class="kev">
+        <div class="row">
+        <div class="col-lg-12 ">
+            <div class="card-header bg-dark text-white text-center"style="height: 50px;" >
+                <span class="align-middle">Students</span>
+                
+            </div>
+            
+        </div>
+        </div>
+    </div>
         <div class="container-fluid">
             <table class="table table-striped table-hover table-responsive"  >
                 <thead>
@@ -56,7 +67,7 @@
                         <td> <?php echo $fetchEnrollmentRecord['course']  ?> </td>
                         <td> <?php echo $fetchEnrollmentRecord['created_at']  ?> </td>
                         <td>
-                            <a href="" class="btn btn-primary btn-sm">
+                            <a href="edit-enrollment.php?id=<?php echo $fetchEnrollmentRecord['no']?>" class="btn btn-primary btn-sm">
                             <i class="fa fa-edit"></i>
                             </a>
                             <a href="" class="btn btn-info btn-sm">
@@ -80,8 +91,9 @@
         </div>
     </div>
  
-<script src="jquery.min.js"></script>
-<script src="bootstrap-5.2.0/js/bootstrap.bundle.min.js"></script>
-<script src="bootstrap-5.2.0/js/bootstrap.min.js"></script>   
+  <!--scripts file (js) -->
+  <?php
+    require_once('includes/scripts.php')
+?>
 </body>
 </html>
