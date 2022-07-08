@@ -10,6 +10,27 @@
         $course = $fetchstudent['course'];
         
     }
+    // updating records
+    if(isset($_POST['updateRecords']))
+        {
+            // fetch data
+            $fullname = $_POST['fullname'];
+            $phonenumber = $_POST['phonenumber'];
+            $email= $_POST['email'];
+            $gender= $_POST['gender'];
+            $course = $_POST['course'];
+
+            // perform the sql query
+            $updateRecords = mysqli_query($conn, "UPDATE enrollment set fullname ='$fullname', phonenumber ='$phonenumber', email ='$email',gender ='$gender', course ='$course'
+            WHERE no='".$_GET['id']."' ");
+
+            if($updateRecords){
+                echo "updated record";
+            }
+            else{
+                echo "not updated";
+            }
+        }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -44,7 +65,7 @@
                 </div>
             </div>
                 <div class="card-body ">
-                    <form action="enroll.php" method="POST">
+                    <form action="edit-enrollment.php" method="POST">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <label for="fullname" class="form-label"><b>Full name</b></label>
@@ -81,14 +102,16 @@
                             </select>
                         </div>
                         <br>
-                        <p>You agree by providing your information you understand all our data privacy and protection policy outlined in our terms & condition and the privacy policy terms</p>
-                    
-                        <div class = "form-check">  
+                        
+                        <!-- <div class = "form-check">  
                             <input class = "form-check-input"   type = "checkbox" id = "checkbox1" name="option1" value="good" >  
                             <label class="form-check-label"><b>Agreeing terms and conditions</b></label>  
-                        </div>
-                            <button class="btn btn-primary" type="submit" name="submitButton">Submit application</button>  
-                           
+                        </div> -->
+                        <div class="row pt-2">
+                            <div class="col-lg-6">
+                            <button class="btn btn-primary" type="submit" name="updateRecords">Update Records</button>  
+                            </div>
+                        </div>  
                         
                        
                     </form>    
